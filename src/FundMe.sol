@@ -63,7 +63,8 @@ contract FundMe {
         for (
             uint256 funderIndex = 0;
             funderIndex < s_funders.length;
-             //reading from storage over and over again which is expensive
+
+            //reading from storage over and over again which is expensive
             funderIndex++
         ) {
             address funder = s_funders[funderIndex];
