@@ -13,11 +13,13 @@ contract InteractionsTest is Test {
     uint256 constant SEND_VALUE = 0.1 ether; //10000000000000000
     uint256 constant STARTING_BALANCE = 10 ether;
     uint256 constant GAS_PRICE = 1;
+
     function setUp() external {
         DeployFundMe deploy = new DeployFundMe();
         fundMe = deploy.run();
         vm.deal(USER, STARTING_BALANCE);
     }
+
     function testUserCanFundInteractions() public {
         FundFundMe fundFundMe = new FundFundMe();
         vm.deal(address(fundFundMe), SEND_VALUE); // give script ETH
