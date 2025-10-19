@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.19;
 
-import {Test, console} from "../../lib/forge-std/src/Test.sol";
+import {Test} from "../../lib/forge-std/src/Test.sol";
 import {ZkSyncChainChecker} from "../../lib/foundry-devops/src/ZkSyncChainChecker.sol";
 import {FoundryZkSyncChecker} from "../../lib/foundry-devops/src/FoundryZkSyncChecker.sol";
 
