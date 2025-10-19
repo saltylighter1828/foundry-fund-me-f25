@@ -39,4 +39,3 @@ yarn.lock           # optional: commit if using Yarn
 # Libraries (optional)
 # -------------------------
 # If using submodules, you can ignore lib/
-lib/
