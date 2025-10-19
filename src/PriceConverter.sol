@@ -3,7 +3,7 @@ pragma solidity ^0.8.18;
 
 import {
     AggregatorV3Interface
-} from "node_modules/@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
+} from "../lib/@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
 // Why is this a library and not abstract?
 // Why not an interface?
